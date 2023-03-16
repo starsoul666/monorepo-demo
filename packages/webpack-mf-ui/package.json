@@ -1,0 +1,35 @@
+{
+  "name": "webpack-mf-ui",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "li.jw <li.jw@digitalcnzz.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "http://r.cnpmjs.org/"
+  },
+  "scripts": {
+    "test": "node ./__tests__/webpack-mf-ui.test.js",
+    "build": "webpack"
+  },
+  "dependencies": {
+    "react": "17.0.0",
+    "react-dom": "17.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "17.0.0",
+    "@types/react-dom": "17.0.0",
+    "ts-loader": "^9.4.2",
+    "typescript": "^4.9.5",
+    "webpack": "^5.76.1",
+    "webpack-cli": "^5.0.1"
+  }
+}
